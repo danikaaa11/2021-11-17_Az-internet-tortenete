@@ -1,15 +1,14 @@
 body {
 	color: black;
-	background-color: #E0E0E0;
+	background-color: #e0e0e0;
 }
 
 p {
-text-align: justify;
+ text-align: justify;
 }
 
 a, a:link, a:visited, a:active {
-	color: #666584;
-
+ color: #666584;
 }
 
 /* Középső hasáb */
@@ -17,10 +16,14 @@ a, a:link, a:visited, a:active {
   width: 600px;
   margin: auto;
   background-color: #5C6B7B;
-  padding: 0 20px 0 20px;
+  padding: 0 20px 0 20px
+  ;
 }
 
 /* Fejléc */
+#header{
+  margin-bottom: 10px;
+}
 #header img {
 	display: block;
 }
@@ -28,7 +31,9 @@ a, a:link, a:visited, a:active {
 
 /* Navigációs sáv */
 #nav {
-
+  margin-bottom: 10px;
+  background-color: #cddbeb;
+  
 }
 
 #nav ul {
@@ -40,27 +45,34 @@ a, a:link, a:visited, a:active {
 
 #nav li {
     float: left;
+    
 }
 
 #nav a {
 	display: block;
+  width: 150px;
 	text-decoration: none;
 	padding: 0.5em 0;
 	font-weight: bold;
+  text-align: center;
 }
 
 #nav a:hover {
-
+   background-color: #B1B7DF;
 }
 
 /* Tartalom */
 #content {
-
+  background-color: white;
+  margin-bottom: 10px;
+  padding: 10px;
 }
 
 /*Lábléc  */
 #footer {
-
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #cddbeb;
 }
 
 /* További stílusok */
@@ -73,5 +85,5 @@ a, a:link, a:visited, a:active {
 }
 
 .active {
-
+     background-color: white;
 }
